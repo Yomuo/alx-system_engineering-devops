@@ -1,0 +1,3 @@
+# other solution whithout using printf is
+# echo {a..z}{a..z} | tr ' ' '\n' | sort | grep -v oo
+# using printf will give a better control of the output text
